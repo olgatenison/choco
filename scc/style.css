@@ -170,7 +170,7 @@
 /*--------------------------------------*/
 /*--------------------------------------*/
 .enjoy {
-  padding-top: 90px;
+  padding-top: 80px;
   height: 100vh;
   background-image: url(../images/enjoy/bg_white.jpg);
   background-repeat: no-repeat;
@@ -182,7 +182,8 @@
 }
 
 .enjoy__wrapper {
-  max-width: 300px;
+  max-width: 350px;
+
   margin-left: auto;
   margin-right: 0;
 }
