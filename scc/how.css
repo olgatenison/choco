@@ -10,12 +10,14 @@
 }
 
 .how__pic {
-  max-width: 650px;
+  width: 670px;
+  margin-top: -50px;
 }
 
 .how__title {
   padding-bottom: 30px;
   margin-left: -20px;
+  margin-top: -50px;
 }
 
 .how__subtitle {
