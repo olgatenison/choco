@@ -1,3 +1,9 @@
+/*hero style start*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+
 .hero {
   height: 100vh;
   background-image: url(../images/bg_hero.jpg);
@@ -94,7 +100,7 @@
 /*--------------------------------------*/
 /*--------------------------------------*/
 /*hero style-media end*/
-/*benefits style*/
+/*benefits style start*/
 /*--------------------------------------*/
 /*--------------------------------------*/
 /*--------------------------------------*/
@@ -112,6 +118,7 @@
 
 .benefits__title {
 }
+
 .benefits__list {
   display: flex;
   justify-content: space-between;
@@ -126,6 +133,7 @@
 
 .benefits__img {
 }
+
 .benefits__pic {
   margin-bottom: 20px;
 }
@@ -155,13 +163,21 @@
 /*--------------------------------------*/
 /*benefits style end*/
 /*benefits media start*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
 
 @media screen and (max-width: 968px) {
-}
-@media screen and (max-width: 767px) {
   .benefits {
     padding-top: 50px;
     padding-bottom: 50px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .benefits {
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
   .benefits__list {
     display: flex;
@@ -169,13 +185,30 @@
     justify-content: space-between;
     gap: 40px;
   }
+  .benefits__txt {
+    font-size: 12px;
+    text-align: left;
+    max-width: 400px;
+  }
 }
 @media screen and (max-width: 380px) {
+  .benefits {
+    padding-top: 20px;
+    padding-bottom: 15px;
+  }
 }
+
 /*--------------------------------------*/
 /*--------------------------------------*/
 /*--------------------------------------*/
 /*--------------------------------------*/
+/*benefits media end*/
+/*inspired style start*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+
 .inspired {
   padding-top: 130px;
   padding-bottom: 100px;
@@ -202,6 +235,7 @@
 }
 .inspired__container {
 }
+
 .inspired__wrapper {
   margin: 0 auto;
   max-width: 1000px;
@@ -226,7 +260,7 @@
   text-align: center;
   font-weight: 400;
 
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.5;
   letter-spacing: 2%;
   opacity: 80%;
@@ -240,11 +274,18 @@
   left: 50%;
   z-index: 3;
 }
+
 /*--------------------------------------*/
 /*--------------------------------------*/
 /*--------------------------------------*/
 /*--------------------------------------*/
-/*benefits style end*/
+/*inspired style end*/
+/*inspired media start*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+
 @media screen and (max-width: 968px) {
   .inspired__title {
     font-size: 24px;
@@ -275,14 +316,14 @@
     z-index: 1;
   }
 }
+
 @media screen and (max-width: 767px) {
   .inspired__txt {
     font-size: 12px;
   }
   .inspired {
     padding-top: 30px;
-    padding-bottom: 50px;
-
+    padding-bottom: 40px;
     position: relative;
   }
   .inspired::after {
@@ -306,65 +347,101 @@
 @media screen and (max-width: 380px) {
 }
 
-/*benefits media start*/
 /*--------------------------------------*/
 /*--------------------------------------*/
 /*--------------------------------------*/
 /*--------------------------------------*/
+/*inspired media end*/
+/*enjoy style start*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+
 .enjoy {
-  padding-top: 80px;
-  height: 100vh;
-  background-image: url(../images/enjoy/bg_white.jpg);
-  background-repeat: no-repeat;
-  background-position: left;
-  background-size: contain;
-  background-color: #ffffff;
+  background-color: var(--bg-white);
 }
 .enjoy__container {
 }
 
-.enjoy__wrapper {
-  max-width: 380px;
-
-  margin-left: auto;
-  margin-right: 0;
-}
 .enjoy__title {
   padding-bottom: 20px;
+  padding-top: 60px;
+  font-size: 40px;
+  text-align: end;
+  margin-left: auto;
+  margin-right: 230px;
 }
 
 .enjoy__txt {
   color: var(--txt-black);
+  max-width: 350px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.5;
   letter-spacing: 2%;
   opacity: 70%;
+  margin-left: auto;
+  margin-right: 0;
 }
-@media screen and (max-width: 968px) {
-  .enjoy {
-    margin-top: 120px;
 
-    background-image: url(../images/enjoy/bg_white.jpg);
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: contain;
+.enjoy__img {
+  max-width: 100%;
+  margin-top: -170px;
+}
+
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*enjoy style end*/
+/*enjoy media start*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+
+@media screen and (max-width: 975px) {
+  .enjoy__img {
+    display: block;
+    max-width: 900px;
+    margin-top: 0;
   }
   .enjoy__wrapper {
-    max-width: 380px;
-    margin-top: -50px;
-    margin-left: auto;
-    margin-right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
+  .enjoy__title {
+    font-size: 34px;
+    padding-bottom: 15px;
+    margin: 0 auto;
+  }
+
+  .enjoy__txt {
+    font-size: 14px;
+    max-width: 580px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 767px) {
+  .enjoy {
+  }
+
   .enjoy__title {
     font-size: 24px;
     padding-bottom: 15px;
+    text-align: center;
+    padding-top: 40px;
   }
   .enjoy__txt {
     font-size: 12px;
   }
 }
-@media screen and (max-width: 767px) {
-}
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 500px) {
+  .enjoy__title {
+    padding-top: 20px;
+  }
 }

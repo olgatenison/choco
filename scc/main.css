@@ -1,5 +1,10 @@
 /*--------------------------------------*/
 /*Обнуление*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+
 * {
   padding: 0;
   margin: 0;
@@ -131,6 +136,7 @@ body {
 }
 .subtitle {
 }
+
 .btn {
   color: var(--txt-white);
 
@@ -152,6 +158,7 @@ body {
   background-color: var(--bg-darck-color);
   color: var(--txt-gold);
 }
+
 /*--------------------------------------*/
 /*--------------------------------------*/
 /*--------------------------------------*/
@@ -197,6 +204,7 @@ body {
 
 .header__navigation {
 }
+
 .navigation {
   display: flex;
   font-weight: 400;
@@ -270,6 +278,7 @@ body {
     width: 100%;
   }
 }
+
 @media screen and (max-width: 380px) {
   .container {
     margin: 0 auto;
@@ -284,6 +293,7 @@ body {
     margin-left: 10px;
   }
 }
+
 /*--------------------------------------*/
 /*--------------------------------------*/
 /*--------------------------------------*/
@@ -304,6 +314,7 @@ body {
 
 .footer__container {
 }
+
 .footer__second {
   display: flex;
   justify-content: space-between;
@@ -332,6 +343,7 @@ body {
 
 .footer__adress {
 }
+
 .adress {
   display: flex;
   flex-direction: column;
@@ -351,8 +363,10 @@ body {
 }
 .adress__list {
 }
+
 .adress__item {
 }
+
 .adress__link {
   color: var(--txt-white);
   opacity: 0.8;
@@ -365,6 +379,7 @@ body {
 }
 .footer__nav {
 }
+
 .nav {
   display: flex;
 }
@@ -388,6 +403,7 @@ body {
 }
 .footer__wrapper {
 }
+
 .footer__input {
   margin: 0 auto;
   margin-bottom: 15px;
@@ -422,6 +438,7 @@ body {
 .footer__btn {
   height: 45px;
 }
+
 /*--------------------------------------*/
 /*--------------------------------------*/
 /*--------------------------------------*/
