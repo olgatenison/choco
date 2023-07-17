@@ -105,7 +105,7 @@
     flex-direction: column-reverse;
     justify-content: start;
     min-height: 750px;
-    padding-bottom: 50px;
+    padding-bottom: 70px;
     padding-top: 30px;
   }
   .how__list {
@@ -158,7 +158,7 @@
 .process__left {
 }
 .process__pic {
-  max-width: 600px;
+  max-width: 40vw;
 }
 
 /*--------------------------------------*/
@@ -173,10 +173,34 @@
 /*--------------------------------------*/
 
 @media screen and (max-width: 968px) {
+  .process__title {
+    font-size: 30px;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    line-height: 1;
+  }
 }
 @media screen and (max-width: 767px) {
+  .process__title {
+    font-size: 24px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    line-height: 1;
+  }
+  .process__txt {
+    font-size: 12px;
+    padding-bottom: 12px;
+  }
+  .process {
+    padding-bottom: 20px;
+  }
 }
 @media screen and (max-width: 508px) {
-}
-@media screen and (max-width: 380px) {
+  .process__container {
+    display: flex;
+    flex-direction: column;
+  }
+  .process__pic {
+    max-width: 70vw;
+  }
 }
