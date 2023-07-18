@@ -1,0 +1,26 @@
+.testing {
+  background-color: var(--txt-white);
+}
+.testing__container {
+  background-image: url("..images/testing/chocolate.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+}
+.testing__wrapper {
+}
+.testing__title {
+}
+.title {
+}
+.testing__txt {
+  color: #1d1d1d;
+  opacity: 0.6;
+}
+.testing__img {
+}
+.testing__btn {
+}
+.btn {
+}
