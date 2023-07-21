@@ -1,22 +1,37 @@
 .testing {
-  background-color: var(--txt-white);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-image: url("../images/testing/chocolate.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 500px; /* You must set a specified height */
+  background-position: right; /* Center the image */
+  background-color: #ffffff;
 }
 .testing__container {
-  background-image: url("..images/testing/chocolate.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 .container {
 }
 .testing__wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  max-width: 700px;
 }
+
 .testing__title {
+  margin-bottom: 30px;
 }
-.title {
-}
+
 .testing__txt {
   color: #1d1d1d;
   opacity: 0.6;
+  margin-bottom: 30px;
+}
+.testing__txt:last-child {
+  color: #1d1d1d;
+  opacity: 0.6;
+  margin-bottom: 30px;
 }
 .testing__img {
 }
