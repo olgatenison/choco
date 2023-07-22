@@ -6,7 +6,7 @@
   background-size: contain;
   height: 500px; /* You must set a specified height */
   background-position: right; /* Center the image */
-  background-color: #ffffff;
+  background-color: #fff;
 }
 .testing__container {
 }
@@ -15,6 +15,7 @@
 .testing__wrapper {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+
   gap: 30px;
   max-width: 700px;
 }
@@ -26,16 +27,13 @@
 .testing__txt {
   color: #1d1d1d;
   opacity: 0.6;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
-.testing__txt:last-child {
-  color: #1d1d1d;
-  opacity: 0.6;
-  margin-bottom: 30px;
-}
+
 .testing__img {
 }
 .testing__btn {
 }
+
 .btn {
 }
