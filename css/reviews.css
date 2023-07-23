@@ -311,4 +311,8 @@
   }
 }
 @media screen and (max-width: 380px) {
+  .testing__img {
+    max-width: 250px;
+    padding-top: 30px;
+  }
 }
