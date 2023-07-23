@@ -1,3 +1,8 @@
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+
 .reviews {
 }
 .reviews__container {
@@ -15,6 +20,7 @@
   position: relative;
   margin: 0 auto;
 }
+
 .reviews__title::after {
   position: absolute;
   content: "";
@@ -27,6 +33,7 @@
   top: -90px;
   left: -400px;
 }
+
 .reviews__title::before {
   position: absolute;
   content: "";
@@ -39,6 +46,7 @@
   top: 450px;
   right: -400px;
 }
+
 .reviews__subtitle {
   padding-bottom: 90px;
   max-width: 600px;
@@ -47,9 +55,11 @@
   opacity: 0.8;
   font-size: 14px;
 }
+
 .reviews__content {
   padding-left: 30px;
 }
+
 .reviews__wrapper {
   display: flex;
   align-items: center;
@@ -61,10 +71,12 @@
   background-color: var(--bg-darck-color);
   margin-bottom: 50px;
 }
+
 .reviews__photo {
   width: 100px;
   height: 100px;
 }
+
 .reviews__name {
   font-family: "Marcellus SC", serif;
   font-size: 30px;
@@ -74,6 +86,7 @@
   color: var(--txt-gold);
   padding-bottom: 10px;
 }
+
 .reviews__txt {
   font-weight: 400;
   color: var(--txt-white);
@@ -86,47 +99,216 @@
 /*--------------------------------------*/
 /*--------------------------------------*/
 /*--------------------------------------*/
-/*testing style end*/
+/*reviews style end*/
+/*reviews media start*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+
+@media screen and (max-width: 968px) {
+  .reviews__title::after {
+    position: absolute;
+    content: "";
+    width: 280px;
+    height: 204px;
+    display: block;
+    background-image: url("../images/reviews/reviewes_right.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: -90px;
+    left: -250px;
+  }
+
+  .reviews__title::before {
+    position: absolute;
+    content: "";
+    width: 280px;
+    height: 239px;
+    display: block;
+    background-image: url("../images/reviews/reviewes_left.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 100px;
+    right: -200px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .reviews__title::after {
+    position: absolute;
+    content: "";
+    width: 280px;
+    height: 204px;
+    display: block;
+    background-image: url("../images/reviews/reviewes_right.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: -90px;
+    left: -250px;
+  }
+
+  .reviews__title::before {
+    position: absolute;
+    content: "";
+    width: 280px;
+    height: 239px;
+    display: block;
+    background-image: url("../images/reviews/reviewes_left.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 100px;
+    right: -300px;
+  }
+  .reviews__txt {
+    font-size: 12px;
+  }
+  .reviews__name {
+    font-size: 30px;
+  }
+  .reviews__subtitle {
+    font-size: 12px;
+    max-width: 400px;
+  }
+}
+@media screen and (max-width: 580px) {
+  .reviews__title::after {
+    position: absolute;
+    content: "";
+    display: none;
+  }
+
+  .reviews__title::before {
+    position: absolute;
+    content: "";
+    display: none;
+  }
+}
+@media screen and (max-width: 380px) {
+  .reviews__photo {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 30px;
+    margin-left: 0;
+    margin-right: auto;
+  }
+
+  .reviews__wrapper {
+    flex-direction: column;
+  }
+  .reviews__content {
+    padding-left: 0px;
+  }
+  .reviews__title {
+    max-width: 320px;
+    padding-bottom: 10px;
+  }
+  .reviews__subtitle {
+    padding-bottom: 40px;
+    max-width: 600px;
+  }
+  .reviews__container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*reviews media end*/
 /*testing style start*/
 /*--------------------------------------*/
 /*--------------------------------------*/
 /*--------------------------------------*/
 /*--------------------------------------*/
 
-/*--------------------------------------*/
-/*--------------------------------------*/
-/*--------------------------------------*/
-/*--------------------------------------*/
-/*testing style end*/
-/*testing media start*/
-/*--------------------------------------*/
-/*--------------------------------------*/
-/*--------------------------------------*/
-/*--------------------------------------*/
 .testing {
   background-color: #fff;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
+
 .testing__container {
   display: flex;
   flex-direction: column;
 }
 
 .testing__wrapper {
+  display: flex;
+  gap: 60px;
 }
+
 .testing__title {
-  text-align: center;
-  padding-bottom: 30px;
+  padding: 30px;
+  border: var(--txt-gold) 1px solid;
 }
 
 .testing__txt {
   text-indent: 1.5em;
-  padding-bottom: 15px;
   font-size: 14px;
   color: var(--bg-darck-color);
 }
+
 .testing__img {
-  max-width: 700px;
+  max-width: 800px;
   margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*testing stsyle end*/
+/*testing media start*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+/*--------------------------------------*/
+
+@media screen and (max-width: 968px) {
+  .testing {
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+  .testing__img {
+    max-width: 500px;
+    padding-top: 30px;
+  }
+  .testing__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .testing__title {
+    padding: 30px;
+    padding-bottom: 70px;
+    border: var(--txt-gold) 1px solid;
+    max-width: 300px;
+    margin-bottom: 30px;
+  }
+  .testing__container {
+    flex-direction: column-reverse;
+  }
+}
+@media screen and (max-width: 767px) {
+}
+@media screen and (max-width: 508px) {
+  .testing__img {
+    max-width: 400px;
+    padding-top: 30px;
+  }
+  .testing__title {
+    padding: 30px;
+    padding-bottom: 50px;
+    border: var(--txt-gold) 1px solid;
+    max-width: 200px;
+    margin-bottom: 15px;
+  }
+  .testing {
+    padding-bottom: 20px;
+  }
+}
+@media screen and (max-width: 380px) {
 }

@@ -6,7 +6,8 @@
 
 .how__container {
   display: flex;
-  height: 100vh;
+  padding-bottom: 30px;
+  padding-top: 30px;
   align-items: center;
 }
 .how__left {
