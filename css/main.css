@@ -135,6 +135,12 @@ body {
   color: var(--txt-gold);
 }
 .subtitle {
+  font-family: "Marcellus SC", serif;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 1.3;
+  letter-spacing: 2px;
+  color: var(--txt-gold);
 }
 
 .btn {
