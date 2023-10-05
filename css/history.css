@@ -51,11 +51,16 @@
 }
 .about02__left {
   padding-right: 40px;
+  line-height: 2;
+
+  text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 .about02__text01 {
 }
 .about02__img01 {
-  width: 250px;
+  width: 320px;
 }
 .about02__center {
   padding: 20px;
@@ -67,6 +72,8 @@
 .subtitle {
 }
 .about02__text02 {
+  line-height: 2;
+  text-align: center;
 }
 .about02__right {
   padding: 20px;
